@@ -21,7 +21,8 @@ async function updateHitokoto() {
 function updateResult() {
 	const nick = (document.querySelector('#nick') as HTMLInputElement).value;
 	const tail = (document.querySelector('#tail') as HTMLInputElement).value;
-	const result = qtail.generate(nick, tail);
+	const Qtail = new qtail(nick, tail, true);
+	const result = Qtail.generate();
 	(document.querySelector('#result') as HTMLInputElement).value = result;
 }
 
@@ -73,7 +74,7 @@ function initListeners() {
 }
 
 console.log(`\n %c qtail v${packageJSON.version} %c https://github.com/latedreamdev/qtail \n`, "color: #c99c3c; background: #030307; padding:5px 0;", "background: #c99c3c; padding:5px 0;");
-(document.querySelector('#qtail-version') as HTMLElement).innerHTML = `v${packageJSON.dependencies['qtail-js'].replace('^', '')}`;
+(document.querySelector('#qtail-version') as HTMLElement).innerHTML = `v${qtail.version.join('.')}`;
 (document.querySelector('#version') as HTMLElement).innerHTML = `&nbsp;v${packageJSON.version}`;
 initListeners(), updateHitokoto();
 let updateHitokotoId: number;
