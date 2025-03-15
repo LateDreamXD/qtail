@@ -1031,26 +1031,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qtail-js-types@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "qtail-js-types@npm:1.0.1"
-  dependencies:
-    qtail-js: "npm:^1.0.1-beta.0"
-  checksum: 10c0/984fcaa1344e66a420a1256f235b06faa20de3b8699b0650b1aa564a1e0a35ec91797985c05cc684e63929ae207183bbdae394c32b63f733eb91cece0b592313
-  languageName: node
-  linkType: hard
-
-"qtail-js@npm:^1.0.1-beta.0":
-  version: 1.0.1-beta.0
-  resolution: "qtail-js@npm:1.0.1-beta.0"
-  checksum: 10c0/d1a83ec3d484a09302a4873ae833b40f6a366c3eb7dca7fc3dc12a942a40c29b77e0552a1d768f063ccea204cdfdf62c6b19612186a7c3d5c6c8c57054cd0acb
-  languageName: node
-  linkType: hard
-
-"qtail-js@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "qtail-js@npm:1.0.2"
-  checksum: 10c0/0ec5cc0b0c1ae3ea2ce1922a9342477898ea5c48ba3b9622f97451a877b9a83d423f38e543a2c3d65395db17753117503501cb379cd803f180ced26e549e0aab
+"qtail-js@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "qtail-js@npm:2.0.0"
+  checksum: 10c0/4bf9b2d051d0a3365e20924dc89d48ccfcdc8ca46eadea7ce367f698c82c10d0e82877fce51dad0c1c8c33a025c8d5b4a8de94978e19f870ed47cb83699adc9c
   languageName: node
   linkType: hard
 
@@ -1058,8 +1042,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "qtail@workspace:."
   dependencies:
-    qtail-js: "npm:^1.0.2"
-    qtail-js-types: "npm:^1.0.1"
+    qtail-js: "npm:^2.0.0"
     typescript: "npm:^5.8.2"
     vite: "npm:^6.2.2"
   languageName: unknown
@@ -1311,11 +1294,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.8.2#optional!builtin<compat/typescript>":
   version: 5.8.2
-  resolution: "typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"
+  resolution: "typescript@patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/8a6cd29dfb59bd5a978407b93ae0edb530ee9376a5b95a42ad057a6f80ffb0c410489ccd6fe48d1d0dfad6e8adf5d62d3874bbd251f488ae30e11a1ce6dabd28
+  checksum: 10c0/5448a08e595cc558ab321e49d4cac64fb43d1fa106584f6ff9a8d8e592111b373a995a1d5c7f3046211c8a37201eb6d0f1566f15cdb7a62a5e3be01d087848e2
   languageName: node
   linkType: hard
 
