@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "typescript": "^5.8.2",
-    "vite": "^6.2.2"
+    "vite": "^6.2.4"
   },
   "dependencies": {
     "qtail-js": "^2.0.0"
