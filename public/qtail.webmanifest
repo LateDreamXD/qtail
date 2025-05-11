@@ -1,6 +1,6 @@
 {
-	"name": "qtail",
-	"short_name": "qtail",
+	"name": "qtailw",
+	"short_name": "qtailw",
 	"description": "给你的qq昵称加上小尾巴",
 	"start_url": ".",
 	"display": "standalone",
