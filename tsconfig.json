@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
-		"target": "es2015",
-		"module": "es2020",
+		"target": "es2017",
+		"module": "es2022",
 		"sourceMap": true,
 
 		"moduleResolution": "node",
@@ -17,8 +17,8 @@
 		"noFallthroughCasesInSwitch": true,
 		"forceConsistentCasingInFileNames": true,
 
-		"lib": ["es2015", "dom"],
-		"types": ["vite/client"]
+		"lib": ["es2017", "dom"],
+		"types": ["vite/client", "./env.d.ts"]
 	},
 	"include": ["src"]
 }

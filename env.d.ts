@@ -1,0 +1,1 @@
+declare const ___VERSION___: string;
