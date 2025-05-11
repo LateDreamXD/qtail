@@ -3,14 +3,14 @@
 
 ## 本地开发
 ```bash
-git clone https://github.com/latedreamdev/qtail.git
+git clone https://github.com/LateDreamXD/qtail.git
 cd qtail
 yarn install
 yarn dev
 ```
 
 ## 感谢
-qtail的诞生离不开以下开源项目(排名不分先后):
+qtailw的诞生离不开以下开源项目(排名不分先后):
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [vite](https://github.com/vitejs/vite)
 - [qlementine-icons](https://github.com/oclero/qlementine-icons)
