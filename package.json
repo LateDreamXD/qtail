@@ -1,18 +1,18 @@
 {
-  "name": "qtailw",
+  "name": "qtail",
   "version": "2.2.0",
   "private": true,
-  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9",
+  "packageManager": "pnpm@10.14.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "devDependencies": {
-    "@types/node": "^22.15.21",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5"
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
   },
   "dependencies": {
-    "qtail-js": "^2.0.0"
+    "qtail-js": "^2.1.1"
   }
 }
