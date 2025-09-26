@@ -1066,10 +1066,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qtail-js@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "qtail-js@npm:2.0.0"
-  checksum: 10c0/4bf9b2d051d0a3365e20924dc89d48ccfcdc8ca46eadea7ce367f698c82c10d0e82877fce51dad0c1c8c33a025c8d5b4a8de94978e19f870ed47cb83699adc9c
+"qtail-js@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "qtail-js@npm:2.1.1"
+  checksum: 10c0/80ae336c0a6eeba4a3e1e76255074ef7505f249bbb28b2f1ab14ef5e5b89b2d12864b6d27c57549f9e3732e5f03193ff5bd6d40255ca2bed5eb716d313448518
   languageName: node
   linkType: hard
 
@@ -1078,7 +1078,7 @@ __metadata:
   resolution: "qtailw@workspace:."
   dependencies:
     "@types/node": "npm:^22.15.21"
-    qtail-js: "npm:^2.0.0"
+    qtail-js: "npm:^2.1.1"
     typescript: "npm:^5.8.3"
     vite: "npm:^6.3.5"
   languageName: unknown
