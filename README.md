@@ -1,17 +1,19 @@
 # qtail
-给你的qq昵称加上小尾巴
 
-## 本地开发
+## dev
 ```bash
 git clone https://github.com/LateDreamXD/qtail.git
 cd qtail
-yarn install
-yarn dev
+pnpm i
+pnpm dev
 ```
 
-## 感谢
-qtailw的诞生离不开以下开源项目(排名不分先后):
-- [TypeScript](https://github.com/microsoft/TypeScript)
-- [vite](https://github.com/vitejs/vite)
-- [qlementine-icons](https://github.com/oclero/qlementine-icons)
-- [qtail.js](https://github.com/latedreamdev/qtail-js)
+## used libraries
+qtail used these libraries:
+  - qtail-js: MPL-2.0 license - <a href="https://github.com/LateDreamXD/qtail-js">homepage</a>
+  - Typescript: Apache-2.0 license - <a href="https://www.typescriptlang.org/">homepage</a>
+  - Vue.js: MIT license - <a href="https://vuejs.org/">homepage</a>
+  - Vite: MIT license - <a href="https://vitejs.dev/">homepage</a>
+
+
+qtail is licensed under MPL-2.0.
