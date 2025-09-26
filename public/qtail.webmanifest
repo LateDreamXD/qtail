@@ -1,11 +1,11 @@
 {
-	"name": "qtailw",
-	"short_name": "qtailw",
-	"description": "给你的qq昵称加上小尾巴",
+	"name": "qtail3",
+	"short_name": "qtail",
+	"description": "",
 	"start_url": ".",
 	"display": "standalone",
-	"background_color": "#333",
-	"theme_color": "#333",
+	"background_color": "#63073A",
+	"theme_color": "#63073A",
 	"icons": [
 		{
 			"src": "./favicon.png",
