@@ -16,3 +16,5 @@ createApp(App).mount('#app');
 //  | |  | |_| | (__|   <     | |  __/ | | | (_|  __/ | | | |_ 
 //  |_|   \__,_|\___|_|\_\    |_|\___|_| |_|\___\___|_| |_|\__|
 //                                                             
+
+if('serviceWorker' in navigator && import.meta.env.PROD) navigator.serviceWorker.register('./sw.js');
