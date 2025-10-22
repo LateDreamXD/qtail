@@ -600,6 +600,9 @@ button.normal, a[role="button"] {
 		* {
 			font-size: 0.8rem;
 		}
+		&#help_center {
+			bottom: calc(100% - 75%) !important;
+		}
 	}
 }
 </style>
